@@ -1,0 +1,16 @@
+# ===== 核心依赖 =====
+numpy>=1.21
+opencv-python>=4.5
+
+# ===== ADB 通信 =====
+adbutils>=1.2
+
+# ===== 视频解码（PyAV，自带 FFmpeg 动态库）=====
+av>=10.0
+
+# ===== 手机画面拉取（提供 mysc_core.video）=====
+# 注意：若 PyPI 上找不到该包，请从项目自带 wheel / 私有源 / 源码安装
+mysc-core
+
+# ===== 打包用（可选，仅生成 exe 时需要）=====
+# pyinstaller>=6.0
